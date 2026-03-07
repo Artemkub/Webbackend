@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <style>
+        body { font-family: sans-serif; max-width: 480px; margin: 2rem auto; padding: 0 1rem; }
+        h1 { margin-top: 0; }
+        .msg { margin-bottom: 1rem; padding: 0.75rem; border-radius: 6px; }
+        .msg.err { background: #fee; border: 1px solid #c00; }
+        .msg.ok { background: #efe; border: 1px solid #0a0; }
+        label { display: block; margin-top: 0.75rem; margin-bottom: 0.25rem; }
+        input[type="text"], input[type="tel"], input[type="email"], input[type="date"], select, textarea { width: 100%; padding: 0.4rem; }
+        select[multiple] { min-height: 120px; }
+        textarea { min-height: 80px; resize: vertical; }
+        button { margin-top: 1rem; padding: 0.5rem 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Анкета</h1>
+    <form action="/" method="POST">
+        <label for="fio">ФИО:</label>
+        <input type="text" id="fio" name="fio" maxlength="150">
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="birthdate">Дата рождения:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <label>Пол:</label>
+        <label for="male">Мужской</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Женский</label>
+        <input type="radio" id="female" name="gender" value="female">
+
+        <label for="languages">Любимый язык программирования:</label>
+        <select id="languages" name="languages" multiple size="6">
+            <option value="1">Pascal</option>
+            <option value="2">C</option>
+            <option value="3">C++</option>
+            <option value="4">JavaScript</option>
+            <option value="5">PHP</option>
+            <option value="6">Python</option>
+            <option value="7">Java</option>
+            <option value="8">Haskel</option>
+            <option value="9">Clojure</option>
+            <option value="10">Prolog</option>
+            <option value="11">Scala</option>
+            <option value="12">Go</option>
+        </select>
+        <label for="bio">Биография:</label>
+        <textarea id="bio" name="bio" rows="5" cols="40"></textarea>
+        <input type="checkbox" id="agreement" name="agreement" value="on">
+        <label for="agreement">С контрактом ознакомлен(а)</label>
+        <br>
+        <button type="submit">Сохранить</button>
+    </form>
+</body>
+</html>
