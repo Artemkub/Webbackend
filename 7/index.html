@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drupal-coder - Поддержка сайтов на Drupal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- API_BASE_PATH -->
+</head>
+<body>
+    <header class="header">
+        <div class="header-video">
+            <video autoplay muted loop playsinline>
+                <source src="img/video.mp4" type="video/mp4">
+            </video>
+            <div class="header-overlay"></div>
+        </div>
+        
+        <div class="header-content">
+            <nav class="nav">
+                <div class="nav-container">
+                    <div class="logo">
+                        <span class="logo-text">Drupal-coder</span>
+                    </div>
+                    
+                    <ul class="nav-menu desktop-menu">
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link">Поддержка DRUPAL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#expertise" class="nav-link">Администрирование</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#tariffs" class="nav-link">Продвижение</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#efficiency" class="nav-link">Реклама</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#team" class="nav-link">О нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#cases" class="nav-link">Проекты</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contacts" class="nav-link">Контакты</a>
+                        </li>
+                    </ul>
+                    
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Открыть меню">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+            
+            <nav class="mobile-menu" id="mobileMenu">
+                <ul class="mobile-menu-list">
+                    <li><a href="#services">Поддержка DRUPAL</a></li>
+                    <li><a href="#expertise">Администрирование</a></li>
+                    <li><a href="#tariffs">Продвижение</a></li>
+                    <li><a href="#efficiency">Реклама</a></li>
+                    <li><a href="#team">О нас</a></li>
+                    <li><a href="#cases">Проекты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-number">#1</span>
+                    <img src="img/cup.png" alt="Трофей" class="badge-icon">
+                </div>
+                <h1 class="hero-title">Поддержка сайтов на Drupal</h1>
+                <p class="hero-subtitle">Профессиональная поддержка и развитие ваших проектов</p>
+                <button class="hero-btn" id="heroTariffsBtn">Тарифы</button>
+                
+                <div class="hero-metrics">
+                    <div class="metric-item">
+                        <span class="metric-value">13+</span>
+                        <span class="metric-label">лет опыта</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-value">1K+</span>
+                        <span class="metric-label">проектов</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-value">50+</span>
+                        <span class="metric-label">специалистов</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-value">50 000+</span>
+                        <span class="metric-label">часов работы</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-value">333+</span>
+                        <span class="metric-label">клиентов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="competencies" class="section competencies-intro">
+            <div class="container">
+                <h2 class="section-title">13 лет совершенствуем компетенции в Друпал поддержке!</h2>
+                <p class="section-intro">Мы постоянно развиваемся и улучшаем наши навыки для предоставления лучшего сервиса</p>
+                <div class="competencies-grid">
+                    <div class="competency-card">
+                        <img src="img/competency-1.svg" alt="Компетенция 1" class="competency-icon">
+                        <p class="competency-text">Разработка модулей</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-2.svg" alt="Компетенция 2" class="competency-icon">
+                        <p class="competency-text">Интеграции</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-3.svg" alt="Компетенция 3" class="competency-icon">
+                        <p class="competency-text">Аналитика</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-4.svg" alt="Компетенция 4" class="competency-icon">
+                        <p class="competency-text">Миграции</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-5.svg" alt="Компетенция 5" class="competency-icon">
+                        <p class="competency-text">Серверная поддержка</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-6.svg" alt="Компетенция 6" class="competency-icon">
+                        <p class="competency-text">Тестирование</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-7.svg" alt="Компетенция 7" class="competency-icon">
+                        <p class="competency-text">Расчеты</p>
+                    </div>
+                    <div class="competency-card">
+                        <img src="img/competency-8.svg" alt="Компетенция 8" class="competency-icon">
+                        <p class="competency-text">Документация</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section support-section">
+            <div class="container">
+                <h2 class="section-title">Поддержка от Drupal-coder</h2>
+                <div class="support-grid">
+                    <div class="support-card">
+                        <span class="support-number">01</span>
+                        <img src="img/support1.svg" alt="Поддержка 1" class="support-icon">
+                        <h3 class="support-card-title">Постановка задачи по Email</h3>
+                        <p class="support-card-text">Удобная и привычная модель постановки задач, при которой задачи фиксируются и никогда не теряются.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">02</span>
+                        <img src="img/support2.svg" alt="Поддержка 2" class="support-icon">
+                        <h3 class="support-card-title">Система Helpdesk - отчетность, прозрачность</h3>
+                        <p class="support-card-text">Возможность посмотреть все заявки в работе и отработанные часы в личном кабинете через браузер.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">03</span>
+                        <img src="img/support3.svg" alt="Поддержка 3" class="support-icon">
+                        <h3 class="support-card-title">Расширенная техническая поддержка</h3>
+                        <p class="support-card-text">Возможность организации расширенной техподдержки с 6:00 до 22:00 без выходных.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">04</span>
+                        <img src="img/support4.svg" alt="Поддержка 4" class="support-icon">
+                        <h3 class="support-card-title">Персональный менеджер проекта</h3>
+                        <p class="support-card-text">Ваш менеджер проекта всегда в курсе текущего состояния проекта и в любой момент готов ответить на любые вопросы.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">05</span>
+                        <img src="img/support5.svg" alt="Поддержка 5" class="support-icon">
+                        <h3 class="support-card-title">Удобные способы оплаты</h3>
+                        <p class="support-card-text">Безналичный расчет по договору или электронные деньги: WebMoney, Яндекс.Деньги, Paypal.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">06</span>
+                        <img src="img/support6.svg" alt="Поддержка 6" class="support-icon">
+                        <h3 class="support-card-title">Работаем с SLA и NDA</h3>
+                        <p class="support-card-text">Работа в рамках соглашений о конфиденциальности и об уровне качества работ.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">07</span>
+                        <img src="img/support7.svg" alt="Поддержка 7" class="support-icon">
+                        <h3 class="support-card-title">Штатные специалисты</h3>
+                        <p class="support-card-text">Надежные штатные специалисты, никаких фрилансеров.</p>
+                    </div>
+                    <div class="support-card">
+                        <span class="support-number">08</span>
+                        <img src="img/support8.svg" alt="Поддержка 8" class="support-icon">
+                        <h3 class="support-card-title">Удобные каналы связи</h3>
+                        <p class="support-card-text">Консультации по телефону, скайпу, в месенджерах.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="expertise" class="section expertise-section">
+            <div class="container">
+                <div class="expertise-content">
+                    <div class="expertise-visual">
+                        <img src="img/laptop.png" alt="Ноутбук с графиками" class="laptop-img">
+                    </div>
+                    <div class="expertise-text">
+                        <h2 class="section-title">Экспертиза в Drupal, опыт 14 лет!</h2>
+                        <div class="expertise-list">
+                            <div class="expertise-item">
+                                <div class="expertise-line"></div>
+                                <p>Только системный подход - контроль версий, резервирование и тестирование!</p>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-line"></div>
+                                <p>Только Drupal сайты, не берем на поддержку сайты на других CMS!</p>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-line"></div>
+                                <p>Участвуем в разработке ядра Drupal и модулей на Drupal.org, разрабатываем <span class="expertise-highlight">свои модули Drupal</span></p>
+                            </div>
+                            <div class="expertise-item">
+                                <div class="expertise-line"></div>
+                                <p>Поддерживаем сайты на Drupal 5, 6, 7 и 8</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tariffs" class="section tariffs-section">
+            <div class="container">
+                <h2 class="section-title">Тарифы</h2>
+                <div class="tariffs-grid">
+                    <div class="tariff-card">
+                        <h3 class="tariff-title">Стартовый</h3>
+                        <ul class="tariff-features">
+                            <li><span class="checkmark">✓</span> Консультации и работы по SEO</li>
+                            <li><span class="checkmark">✓</span> Услуги дизайнера</li>
+                            <li><span class="checkmark">✓</span> Неиспользованные оплаченные часы переносятся на следующий месяц</li>
+                            <li><span class="checkmark">✓</span> Предоплата от 6000 рублей в месяц</li>
+                        </ul>
+                        <button class="tariff-btn">СВЯЖИТЕСЬ С НАМИ</button>
+                    </div>
+                    <div class="tariff-card tariff-featured">
+                        <h3 class="tariff-title">Бизнес</h3>
+                        <ul class="tariff-features">
+                            <li><span class="checkmark">✓</span> Консультации и работы по SEO</li>
+                            <li><span class="checkmark">✓</span> Услуги дизайнера</li>
+                            <li><span class="checkmark">✓</span> Высокое время реакции - до 2 рабочих дней</li>
+                            <li><span class="checkmark">✓</span> Неиспользованные оплаченные часы не переносятся</li>
+                            <li><span class="checkmark">✓</span> Предоплата от 30000 рублей в месяц</li>
+                        </ul>
+                        <button class="tariff-btn tariff-btn-featured">СВЯЖИТЕСЬ С НАМИ</button>
+                    </div>
+                    <div class="tariff-card">
+                        <h3 class="tariff-title">VIP</h3>
+                        <ul class="tariff-features">
+                            <li><span class="checkmark">✓</span> Консультации и работы по SEO</li>
+                            <li><span class="checkmark">✓</span> Услуги дизайнера</li>
+                            <li><span class="checkmark">✓</span> Максимальное время реакции - в день обращения</li>
+                            <li><span class="checkmark">✓</span> Неиспользованные оплаченные часы не переносятся</li>
+                            <li><span class="checkmark">✓</span> Предоплата от 270 000 рублей в месяц</li>
+                        </ul>
+                        <button class="tariff-btn">СВЯЖИТЕСЬ С НАМИ</button>
+                    </div>
+                </div>
+                <div class="tariffs-footer">
+                    <p class="tariffs-footer-text">Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!</p>
+                    <a href="#contacts" class="tariffs-footer-link">ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="efficiency" class="section efficiency-section">
+            <div class="container">
+                <h2 class="section-title">Наши профессиональные разработчики выполняют быстро любые задачи</h2>
+                <div class="efficiency-grid">
+                    <div class="efficiency-item">
+                        <div class="efficiency-icon"></div>
+                        <span class="efficiency-value">от 1ч</span>
+                        <p class="efficiency-desc">Настройка события СА в интернет-магазине</p>
+                    </div>
+                    <div class="efficiency-item">
+                        <div class="efficiency-icon"></div>
+                        <span class="efficiency-value">от 20ч</span>
+                        <p class="efficiency-desc">Разработка мобильной версии сайта</p>
+                    </div>
+                    <div class="efficiency-item">
+                        <div class="efficiency-icon"></div>
+                        <span class="efficiency-value">от 8ч</span>
+                        <p class="efficiency-desc">Интеграция модуля оплаты</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team" class="section team-section">
+            <div class="container">
+                <h2 class="section-title">Команда</h2>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="img/IMG_2472_0.jpg" alt="Сергей Синица">
+                        </div>
+                        <h3 class="team-name">Сергей Синица</h3>
+                        <p class="team-role">Руководитель отдела веб-разработки, канд. техн. наук, заместитель директора</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="img/IMG_2474_1.jpg" alt="Ронан Агабеков">
+                        </div>
+                        <h3 class="team-name">Алексей Синица</h3>
+                        <p class="team-role">Руководитель отдела DevOPS, директор</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="img/IMG_2522_0.jpg" alt="Алексей Синица">
+                        </div>
+                        <h3 class="team-name">Дарья Бочкарёва</h3>
+                        <p class="team-role">Руководитель отдела поддержки сайтов</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="img/IMG_2539_0.jpg" alt="Дарья Бочкарёва">
+                        </div>
+                        <h3 class="team-name">Роман Агабеков</h3>
+                        <p class="team-role">Руководитель отдела продвижения, контекстной рекламы и контент-поддержки сайтов</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="team-photo">
+                            <img src="img/IMG_9971_16.jpg" alt="Ирина Торкунова">
+                        </div>
+                        <h3 class="team-name">Ирина Торкунова</h3>
+                        <p class="team-role">Менеджер по работе с клиентами</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cases" class="section cases-section">
+            <div class="container">
+                <h2 class="section-title">Последние кейсы</h2>
+                <div class="cases-grid">
+                    <div class="case-item case-item-large">
+                        <img src="img/cableman_ru.png" alt="Cableman">
+                        <h3 class="case-title">Cableman</h3>
+                    </div>
+                    <div class="case-item case-item-large">
+                        <img src="img/farbors_ru.jpg" alt="Farbors">
+                        <h3 class="case-title">Farbors</h3>
+                    </div>
+                    <div class="case-item case-item-medium">
+                        <img src="img/nashagazeta_ch.png" alt="Наша газета">
+                        <h3 class="case-title">Наша газета</h3>
+                    </div>
+                    <div class="case-item case-item-medium">
+                        <img src="img/lpcma_rus_v4.jpg" alt="LPCMA">
+                        <h3 class="case-title">LPCMA</h3>
+                    </div>
+                    <div class="case-item case-item-medium">
+                        <img src="img/drupal-coder.svg" alt="Drupal проект">
+                        <h3 class="case-title">Drupal проект</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="section reviews-section">
+            <div class="container">
+                <h2 class="section-title">Отзывы</h2>
+                <div class="reviews-carousel">
+                    <button class="carousel-btn carousel-btn-prev" id="prevReview">‹</button>
+                    <div class="review-card">
+                        <div class="review-logo">
+                            <img src="img/logo.png" alt="Логотип клиента">
+                        </div>
+                        <p class="review-text">"Отличная команда профессионалов! Работа выполнена качественно и в срок."</p>
+                        <p class="review-author">— Компания CIEL</p>
+                    </div>
+                    <button class="carousel-btn carousel-btn-next" id="nextReview">›</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="clients" class="section clients-section">
+            <div class="container">
+                <h2 class="section-title">С нами работают</h2>
+                <div class="clients-grid">
+                    <div class="client-logo">
+                        <img src="img/cableman_ru.png" alt="Cableman">
+                    </div>
+                    <div class="client-logo">
+                        <img src="img/farbors_ru.jpg" alt="Farbors">
+                    </div>
+                    <div class="client-logo">
+                        <img src="img/nashagazeta_ch.png" alt="Наша газета">
+                    </div>
+                    <div class="client-logo">
+                        <img src="img/lpcma_rus_v4.jpg" alt="LPCMA">
+                    </div>
+                    <div class="client-logo">
+                        <img src="img/logo.png" alt="Клиент">
+                    </div>
+                    <div class="client-logo">
+                        <img src="img/drupal-coder.svg" alt="Клиент">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section faq-section">
+            <div class="container">
+                <h2 class="section-title">FAQ</h2>
+                <div class="faq-list">
+                    <div class="faq-item faq-active">
+                        <div class="faq-question">
+                            <h3>Кто непосредственно занимается поддержкой?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Сайты поддерживают штатные сотрудники ООО «Инитлаб», г. Краснодар, прошедшие специальное обучение и имеющие опыт работы с Друпал от 4 до 15 лет: 8 web-разработчиков, 2 специалиста по SEO, 4 системных администратора.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Как организована работа поддержки?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Поддержка организована 24/7.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Что происходит, когда отработаны все предоплаченные часы за месяц?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Идём на уступки.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Что происходит, когда не отработаны все предоплаченные часы за месяц?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Решаем совместно.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Как происходит оценка и согласование планируемого времени на выполнение заявок?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Легко</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Сколько программистов выделяется на проект?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>5-100.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Как подать заявку на внесение изменений на сайте?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Напиши в поддержку.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Как подать заявку на добавление пользователя, изменение настроек веб-сервера и других задач по администрированию?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Напиши в поддержку.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>В течение какого времени начинается работа по заявке?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Сразу.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>В какое время работает поддержка?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>24/7</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Подходят ли услуги поддержки, если необходимо произвести обновление ядра Drupal или модулей?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Да.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Можно ли пообщаться со специалистом голосом или в мессенджере?</h3>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Да.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="section contacts-section">
+            <div class="container">
+                <div class="contacts-content">
+                    <div class="contacts-info">
+                        <h2 class="section-title">Оставить заявку на поддержку сайта</h2>
+                        <p class="contacts-description">Срочно нужна поддержка сайта? Ваша команда не успевает справиться самостоятельно или предыдущий подрядчик не справился с работой? Тогда вам точно к нам! Просто оставьте заявку и наш менеджер с вами свяжется!</p>
+                        <div class="contact-details">
+                            <a href="tel:88002222673" class="contact-phone">8 800 222-26-73</a>
+                            <a href="mailto:info@drupal-coder.ru" class="contact-email">info@drupal-coder.ru</a>
+                        </div>
+                        <p class="form-auth-info" id="formAuthInfo"></p>
+                        <p class="form-auth-link"><a href="#" id="loginToggle">Войти</a> для редактирования ранее отправленных данных</p>
+                    </div>
+                    <div id="loginBlock" class="login-block" style="display:none;">
+                        <h3>Вход</h3>
+                        <form id="loginForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="login">Логин</label>
+                                <input type="text" id="login" name="login" autocomplete="username">
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Пароль</label>
+                                <input type="password" id="password" name="password" autocomplete="current-password">
+                            </div>
+                            <button type="submit" class="btn-submit">Войти</button>
+                            <span class="login-error" id="loginError"></span>
+                        </form>
+                    </div>
+                    <form id="contactForm" class="contact-form" action="" method="POST">
+                        <div class="form-group form-field" data-field="fio">
+                            <label for="fio">ФИО *</label>
+                            <input type="text" id="fio" name="fio" maxlength="150">
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="phone">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone">
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="email">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email">
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="birthdate">
+                            <label for="birthdate">Дата рождения *</label>
+                            <input type="date" id="birthdate" name="birthdate">
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="gender">
+                            <label>Пол *</label>
+                            <input type="radio" id="genderMale" name="gender" value="male">
+                            <label for="genderMale" class="inline">Мужской</label>
+                            <input type="radio" id="genderFemale" name="gender" value="female">
+                            <label for="genderFemale" class="inline">Женский</label>
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="languages">
+                            <label for="languages">Любимый язык программирования *</label>
+                            <select id="languages" name="languages" multiple size="5">
+                                <option value="1">Pascal</option>
+                                <option value="2">C</option>
+                                <option value="3">C++</option>
+                                <option value="4">JavaScript</option>
+                                <option value="5">PHP</option>
+                                <option value="6">Python</option>
+                                <option value="7">Java</option>
+                                <option value="8">Haskel</option>
+                                <option value="9">Clojure</option>
+                                <option value="10">Prolog</option>
+                                <option value="11">Scala</option>
+                                <option value="12">Go</option>
+                            </select>
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field" data-field="bio">
+                            <label for="bio">Биография</label>
+                            <textarea id="bio" name="bio" rows="4" maxlength="5000"></textarea>
+                            <span class="field-error"></span>
+                        </div>
+                        <div class="form-group form-field checkbox-group" data-field="agreement">
+                            <input type="checkbox" id="agreement" name="agreement" value="on">
+                            <label for="agreement" class="inline">С контрактом ознакомлен(а) *</label>
+                            <span class="field-error"></span>
+                        </div>
+                        <button type="submit" class="btn-submit" id="btnSubmit">Отправить заявку</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-social">
+                    <a href="#" class="social-link" aria-label="Facebook">F</a>
+                    <a href="#" class="social-link" aria-label="Instagram">VK</a>
+                    <a href="#" class="social-link" aria-label="Twitter">T</a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">YT</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
